@@ -43,10 +43,3 @@ Construir una pagina web sencilla usando HTML y CSS para practicar un flujo de t
 ## Como ver el proyecto
 
 Abrir el archivo `index.html` en un navegador web.
-
-## Evidencia sugerida para entrega
-
-- Captura del repositorio en GitHub.
-- Captura de las ramas `main`, `dev` y `diseno`.
-- Captura del pull request con revision de otro integrante.
-- Captura del conflicto resuelto o del commit que registra la resolucion.
