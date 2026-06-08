@@ -33,6 +33,10 @@ Construir una pagina web sencilla usando HTML y CSS para practicar un flujo de t
 - `dev`: rama de desarrollo general.
 - `diseno`: rama para cambios visuales.
 
+## Revision de codigo
+
+El pull request debe ser revisado por un integrante distinto al autor del cambio. La revision debe confirmar que el sitio abre correctamente, que el README explica el objetivo del proyecto y que los mensajes de commit son claros.
+
 ## Ejemplos de commits descriptivos
 
 - `Crear estructura inicial del sitio web`
