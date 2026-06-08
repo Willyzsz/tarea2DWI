@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Proyecto Web Colaborativo</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <nav class="nav">
+      <a class="brand" href="#inicio">DWI Team</a>
+      <div class="nav-links" aria-label="Navegacion principal">
+        <a href="#objetivo">Objetivo</a>
+        <a href="#roles">Roles</a>
+        <a href="#flujo">Flujo</a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" id="inicio">
+      <div class="hero-content">
+        <p class="eyebrow">Proyecto web con Git y GitHub</p>
+        <h1>Trabajo colaborativo con ramas, revisiones y control de versiones</h1>
+        <p>
+          Sitio creado para practicar un flujo de desarrollo en equipo usando Git,
+          GitHub, ramas de trabajo, pull requests y resolucion de conflictos.
+        </p>
+        <a class="button" href="#objetivo">Ver proyecto</a>
+      </div>
+    </section>
+
+    <section class="section" id="objetivo">
+      <div class="section-heading">
+        <p class="eyebrow">Objetivo</p>
+        <h2>Aplicar un flujo de trabajo real</h2>
+      </div>
+      <p>
+        El objetivo del proyecto es construir una pagina web sencilla mientras el
+        equipo practica la creacion de ramas, commits descriptivos, revision de
+        codigo mediante pull requests y solucion de conflictos antes de integrar
+        cambios en la rama principal.
+      </p>
+    </section>
+
+    <section class="section section-alt" id="roles">
+      <div class="section-heading">
+        <p class="eyebrow">Equipo</p>
+        <h2>Integrantes y roles</h2>
+      </div>
+      <div class="role-grid">
+        <article class="role-card">
+          <h3>Lider</h3>
+          <p>Coordina el avance, organiza tareas y valida que se cumplan los requisitos.</p>
+        </article>
+        <article class="role-card">
+          <h3>Documentador</h3>
+          <p>Redacta el README, registra decisiones y describe el flujo usado por el equipo.</p>
+        </article>
+        <article class="role-card">
+          <h3>Integrador</h3>
+          <p>Gestiona ramas, pull requests, revisiones y fusiona cambios aprobados.</p>
+        </article>
+        <article class="role-card">
+          <h3>Disenador</h3>
+          <p>Define la apariencia visual, colores, espaciado y experiencia de usuario.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section" id="flujo">
+      <div class="section-heading">
+        <p class="eyebrow">Flujo</p>
+        <h2>Trabajo con ramas</h2>
+      </div>
+      <ol class="steps">
+        <li>La rama principal es <strong>main</strong>.</li>
+        <li>Los cambios de desarrollo se preparan en <strong>dev</strong>.</li>
+        <li>Los ajustes visuales se trabajan en <strong>diseno</strong>.</li>
+        <li>Antes de integrar cambios, se abre un pull request y otro integrante revisa el codigo.</li>
+        <li>Si hay conflictos, se resuelven localmente y se registra el resultado con un commit claro.</li>
+      </ol>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>Proyecto academico para practicar Git, GitHub y colaboracion en equipo.</p>
+  </footer>
+</body>
+</html>
